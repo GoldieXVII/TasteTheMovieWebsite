@@ -1,0 +1,99 @@
+/* .upcomingMovies {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(253, 219, 117);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.moviePoster {
+    max-width: 25%;
+}
+
+.movieInfo {
+    flex: 1;
+    text-align: center;
+    
+}
+ */
+
+ .bookNow{
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    margin-bottom: 35px;
+}
+
+
+#bookNowBtn
+{
+    color: rgb(253, 219, 117);
+    background-color: #494949;
+    height: 35px;
+    width:200px; 
+    border-radius: 5px;
+    border-color: rgb(253, 219, 117);
+    cursor: pointer;
+}
+
+#contentMovie{
+  text-align: center;
+  margin: 3px;
+}
+
+/* Flip Box Container */
+.flip-box {
+    perspective: 1000px;
+    margin: 0 auto;
+    width: 300px; /* Width of the flip box */
+    height: 450px; /* Height of the flip box */
+    margin-top: 20px;
+  }
+  
+  /* Flip Box Inner Container */
+  .flip-box-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Flip Box Front - Movie Poster */
+  .flip-box-front,
+  .flip-box-back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  
+  /* Flip Box Front - Movie Poster Image */
+  .flip-box-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Flip Box Back - Movie Details */
+  .flip-box-back {
+    background-color: rgb(253, 219, 117);
+    color: black;
+    transform: rotateY(180deg); /* Initially hidden (flipped) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Flip Box Hover Effect */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  

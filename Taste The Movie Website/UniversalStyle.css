@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+    color: rgb(253, 219, 117);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Center the content horizontally */
+}
+
+header img {
+    max-width: 20%;
+    height: auto;
+    display: inline-block; /* Make the image an inline block to center it */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+nav {
+    margin-top: 25px; /* Add some space between the image and the menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Make the menu an inline block to center it */
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(253, 219, 117);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+  
+  .footer-links a {
+    color: rgb(253, 219, 117);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .footer-links a:hover {
+    color: red;
+  }
+  
+  .social-media a {
+    color: rgb(253, 219, 117);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .social-media a:hover{
+    color: red;
+  }
+
+  .social-media{
+    margin-top: 7px;
+  }
+  
+ .createdBy
+ {
+    a:visited { text-decoration: none; color:rgb(253, 219, 117); }
+    a:hover {color: red;}
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: x-small;
+ }
+
+
+
+ #copyright
+ {
+  color: rgb(253, 219, 117);
+ }
+
+ #bookNowBtn
+{
+    color: rgb(253, 219, 117);
+    background-color: #494949;
+    height: 35px;
+    width:200px; 
+    border-radius: 5px;
+    border-color: rgb(253, 219, 117);
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.instagramPost
+  {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grey;*/
+    border-radius: 5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(253, 219, 117);
+    border-radius: 5px;
+  }

@@ -1,0 +1,28 @@
+.container
+{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 5px; */
+    
+}
+
+.moviePoster{
+    max-width: 25%;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: dotted  1px rgb(253, 219, 117); */
+    /* margin-bottom: 5%; */
+    margin: 5%;
+}
+
+.movieInfo{
+    margin-left: 2%;
+}
+
+#bookNowBtn{
+    margin-left: 25%;
+}

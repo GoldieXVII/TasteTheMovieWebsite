@@ -1,0 +1,25 @@
+.aboutDiv
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(253, 219, 117);
+    border-radius: 50px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+img{
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
